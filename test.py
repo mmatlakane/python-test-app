@@ -1,7 +1,9 @@
-print("Enter any num:")
+print("Please enter your name: ")
+name = input()
+print("Enter any num: ")
 num = int(input())
 
 if num%2 == 0:
-	print("It's an Even number!")
+    print("Hi,",name,"the number you entered is an EVEN number!")
 else:
-	print("It's an Odd number!")
+	print("Hi,",name,"the number you entered is an ODD number!")
